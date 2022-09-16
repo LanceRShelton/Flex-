@@ -1,0 +1,21 @@
+body{
+    background-color:white
+}
+.container{
+    width: auto;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    width: 90px;
+    height: 90px;
+    border: 3px solid black;
+    margin: 3px;
+    background-color: aqua;
+}
+.box--1{
+    width 90px;
+    transform: translate(38px, 80px);
+}
